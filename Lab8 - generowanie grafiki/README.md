@@ -6,4 +6,4 @@ Mikalai Stelmakh, 316951
 
 Stworzony robot:
 
-![image-20220610225136059](C:\Users\mikal\AppData\Roaming\Typora\typora-user-images\image-20220610225136059.png)
+![image-20220610225136059](C:\Users\mikal\AppData\Roaming\Typora\typora-user-images/image-20220610225136059.png)

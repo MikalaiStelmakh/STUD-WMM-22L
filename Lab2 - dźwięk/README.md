@@ -10,14 +10,14 @@ Mikalai Stelmakh
 
 - Wygeneruj ton o częstotliwości 1000 Hz i amplitudzie 0,5.
 
-  ![sad](images\1.1_tone.png)
+  ![sad](images/1.1_tone.png)
 
 - Wyświetl widmo sygnału (Analizuj - Narysuj widmo) i sprawdź, jaki wpływ na wygląd widma ma zmiana rozmiaru okna analizy widmowej (Rozmiar: …)
 
 
   | Rozmiar | 128                                                          | 512                                                          | 2048                                                         | 8192                                                         |
   | :------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | Widmo   | ![](images\1.1_size_128.png) | ![](images\1.1_size_512.png) | ![](images\1.1_size_2048.png) | ![](images\1.1_size_8192.png) |
+  | Widmo   | ![](images/1.1_size_128.png) | ![](images/1.1_size_512.png) | ![](images/1.1_size_2048.png) | ![](images/1.1_size_8192.png) |
 
   *Im większy rozmiar okna, tym bardziej wykres skupiony jest w pobliżu 1 kHz.*
 
@@ -25,7 +25,7 @@ Mikalai Stelmakh
 
   | Funkcja | Rectangular                                                  | Hamming                                                      | Blackman                                                     | Gaussian(a=3.5)                                              |
   | :------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | Widmo   | ![](images\1.1_rectangular_window.png) | ![](images\1.1_hamming_window.png) | ![](images\1.1_blackman_window.png) | ![](images\1.1_gaussian_window_3_5.png) |
+  | Widmo   | ![](images/1.1_rectangular_window.png) | ![](images/1.1_hamming_window.png) | ![](images/1.1_blackman_window.png) | ![](images/1.1_gaussian_window_3_5.png) |
 
   *Wykresy dla wszystkich funkcji skupione są w pobliżu 1 kHz. Od rodzaju zastosowanego okna zależy stopień rozlewania się widma na inne częstotliwości.*
 
@@ -35,7 +35,7 @@ Mikalai Stelmakh
 
 - Zaobserwuj, jak wygląda spektrogram dla wygenerowanego tonu (pojedynczej  częstotliwości)
 
-  ![](images\1.1_spectrogram.png)
+  ![](images/1.1_spectrogram.png)
 
   *Spektrogram wygląda jako jedna linia na poziomie częstotliwości równej 1 kHz.*
 
@@ -47,7 +47,7 @@ Mikalai Stelmakh
 
 - Zaobserwuj, jak wygląda spektrogram
 
-  ![](images\1.1_mixed_spectrogram.png)
+  ![](images/1.1_mixed_spectrogram.png)
 
   *Na spektrogramie widać dwie linie skupione w pobliżu 1 kHz i 2 kHz.*
 
@@ -59,7 +59,7 @@ Mikalai Stelmakh
 
 - Posłuchaj i wyświetlając widmo sygnału, sprawdź, jaka jest częstotliwość dźwięku, który gra  flecistka
 
-  ![](images\1.2_flet.png)
+  ![](images/1.2_flet.png)
 
   *Częstotliwość podstawowa dźwięku jest równa 444 Hz.*
 
@@ -73,7 +73,7 @@ Mikalai Stelmakh
 
 - Posłuchaj kolejno każdej ze ścieżek i zobacz na spektrogramie, w jaki sposób różnica w  barwie dźwięku pomiędzy instrumentem grającym cicho (piano) i głośno (forte) widoczna jest  na spektrogramie
 
-  ![](images\1.2_piano_forte.png)
+  ![](images/1.2_piano_forte.png)
 
   *Spektrogram dźwięku forta ma więcej częstotliwości oraz jest jaśniejszy niż spektrogram dźwięku piana.*
 
@@ -83,7 +83,7 @@ Mikalai Stelmakh
 
 - Zmień pionową skalę spektrogramu z liniowej na logarytmiczną (kliknięcie prawym  przyciskiem myszy na skali po lewej stronie wykresu) i słuchając nagrania zobacz, jak na  spektrogramie widoczna jest melodia, którą gra waltornista.
 
-  ![](images\1.2_waltornia.png)
+  ![](images/1.2_waltornia.png)
 
   *Im wyższy dźwięk jest grany, tym "wyżej" pokazany jest on na spektrogramie, im niższy - tym "niżej". Widać też momenty wdechów waltornisty.*
 
@@ -95,11 +95,11 @@ Mikalai Stelmakh
 
   - Mężczyzna
 
-    ![](images\1.3_mezczyzna.png)
+    ![](images/1.3_mezczyzna.png)
 
   - Kobieta
 
-    ![](images\1.3_kobieta.png)
+    ![](images/1.3_kobieta.png)
 
   *Dźwięk mowy męskiej ma więcej energii w częstotliwościach z zakresu [0 kHz - 4 kHz].*
 
@@ -118,7 +118,7 @@ Mikalai Stelmakh
 
   | Przed filtracją                                              | Po filtracji                                                 |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | ![](images\2.1_kobieta_przed.png) | ![](images\2.1_kobieta_po.png) |
+  | ![](images/2.1_kobieta_przed.png) | ![](images/2.1_kobieta_po.png) |
 
   *Nie, mowa kobiety nadal jest dobrze zrozumiała i wyraźna*
 
@@ -126,7 +126,7 @@ Mikalai Stelmakh
 
   | Przed filtracją                                              | Po filtracji                                                 |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | ![](images\2.1_mezczyzna_przed.png) | ![](images\2.1_mezczyzna_po.png) |
+  | ![](images/2.1_mezczyzna_przed.png) | ![](images/2.1_mezczyzna_po.png) |
 
   *Tak, w tym przypadku otrzymujemy dźwięk o gorzej jakości.*
 
@@ -144,24 +144,24 @@ Mikalai Stelmakh
 
 - Zaimportuj ścieżkę „ton_trzaski.wav” i posłuchaj – w nagraniu znajduje się ton i zakłócenia  (trzaski)
 
-  ![](images\2.2_ton_trzaski.png)
+  ![](images/2.2_ton_trzaski.png)
 
 - Przełącz widok ścieżki na spektrogram, zaobserwuj występowanie trzasków, które nie były  widoczne na przebiegu czasowym sygnału, a następnie ponownie rozwiń menu przy nazwie  ścieżki i włącz „Ustawienia spektrogramu”.
 
-  ![](images\2.2_ton_trzaski_spektrogram.png)
+  ![](images/2.2_ton_trzaski_spektrogram.png)
 
 - Sprawdź, jak rozmiar okna analizy fft wpływa na wygląd spektrogramu. Zmieniaj po kolei  rozmiar okna z 1024 na coraz mniejsze, a później coraz większe i zobacz, który rozmiar jest  najlepszy dla uzyskania największej rozdzielczości w dziedzinie czasu (pozioma oś), a który  zapewnia najlepszą rozdzielczość w dziedzinie częstotliwości (pionowa oś)
 
 
   | Rozmiar okna | Spektrogram                                                  |
   | ------------ | ------------------------------------------------------------ |
-  | 128          | ![](images\2.2_size_128.png) |
-  | 256          | ![](images\2.2_size_256.png) |
-  | 512          | ![](images\2.2_size_512.png) |
-  | 1024         | ![](images\2.2_size_1024.png) |
-  | 2048         | ![](images\2.2_size_2048.png) |
-  | 8192         | ![](images\2.2_size_8192.png) |
-  | 32768        | ![](images\2.2_size_32768.png) |
+  | 128          | ![](images/2.2_size_128.png) |
+  | 256          | ![](images/2.2_size_256.png) |
+  | 512          | ![](images/2.2_size_512.png) |
+  | 1024         | ![](images/2.2_size_1024.png) |
+  | 2048         | ![](images/2.2_size_2048.png) |
+  | 8192         | ![](images/2.2_size_8192.png) |
+  | 32768        | ![](images/2.2_size_32768.png) |
 
   *Największą rodzdzielczość w dziedzinie czasu orzymujemy dla okna o rozmiarze 256.*
 
@@ -185,7 +185,7 @@ Przy optymalnych ustawieniach okna analizy dla widoczności trzasków (których 
 
   *Dźwięk o częstotliwości 10 kHz*
 
-  ![](images\2.2_gitara_pisk_przed.png)
+  ![](images/2.2_gitara_pisk_przed.png)
 
    i spróbuj  je usunąć w następujący sposób:
 
@@ -193,7 +193,7 @@ Przy optymalnych ustawieniach okna analizy dla widoczności trzasków (których 
   2. Spróbuj usunąć zakłócenie używając filtra notch (Efekt – Filtr Notch) o odpowiednich  parametrach
   3. Posłuchaj nowej wersji ścieżki
 
-  ![](images\2.2_gitara_pisk_po.png)
+  ![](images/2.2_gitara_pisk_po.png)
 
 ## 3. Lateralizacja źródła dźwięku
 
@@ -219,14 +219,14 @@ Przy optymalnych ustawieniach okna analizy dla widoczności trzasków (których 
 
 - Jeśli przesuniesz ścieżkę o zbyt dużą wartość, zniknie wrażenie przesuwania się źródła  dźwięku, a powstanie wrażenie „echa”
 
-  ![](images\3.png)
+  ![](images/3.png)
 
 
 ## 4. Próbkowanie i kwantyzacja
 
 -  zaimportuj pliki "drums_sweep.wav", " drums_sweep_convert_Fs11025Hz.wav" i  "drums_sweep_convertFs11025Hz_filtering.wav"
 
-  ![](images\4_drums_sweep.png)
+  ![](images/4_drums_sweep.png)
 
 - posłuchaj i oceń brzmienie każdego pliku (drugi z nich to konwersja z fs = 44 100 Hz na  11 025 Hz bez odpowiedniej filtracji sygnału, a trzeci to konwersja z 44 100 Hz na  11 025 Hz, ale z włączoną filtracją anty-aliasingową),
 
@@ -238,7 +238,7 @@ Przy optymalnych ustawieniach okna analizy dla widoczności trzasków (których 
 
 - zobaczyć na spektrogramie w jaki sposób wygląda aliasing na granicy pasma.
 
-  ![](images\4_drums_sweep_aliasing.png)*Dźwięk o wzrastającej częstotliwości jest odbijany od granicy.*
+  ![](images/4_drums_sweep_aliasing.png)*Dźwięk o wzrastającej częstotliwości jest odbijany od granicy.*
 
 
 ---
@@ -255,6 +255,6 @@ Przy optymalnych ustawieniach okna analizy dla widoczności trzasków (których 
 
 - obejrzyj i porównaj spektrogramy każdego sygnału (najlepiej ustawienia: Gain-0dB, Range120dB, Max Freq-22000Hz, Windows size - 4096, Windows type: Blackman Harris)
 
-  ![](images\4_drums_bits.png)
+  ![](images/4_drums_bits.png)
 
   *Na drugim spektrogramie widać zakłócenia pomiędzy uderzeniami, natomiast na ostatnim widać ciągły równomierny szum.*

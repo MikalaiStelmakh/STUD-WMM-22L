@@ -45,11 +45,11 @@ Wykorzystana odpowiedź: *3800ms Pjan38*
 
 Bez efektu:
 
-![](images\2_2_off.png)
+![](images/2_2_off.png)
 
 Z efektem:
 
-![](images\2_2.png)
+![](images/2_2.png)
 
 ## Zadanie 3. Symulacja dźwięku przestrzennego 3D
 
@@ -59,7 +59,7 @@ Z efektem:
 
 Tak, bez problemu można zlokalizować źródło dźwięku.
 
-![](images\3_1.png)
+![](images/3_1.png)
 
 #### Zadanie 2
 
@@ -82,7 +82,7 @@ Tak, bez problemu można zlokalizować źródło dźwięku.
 
 Zmodyfikowany kształt obwiedni:
 
-![](images\4_2.png)
+![](images/4_2.png)
 
 > Opisz  wrażenia słuchowe.
 
@@ -94,7 +94,7 @@ Po zmianie słychać, że zmienił się dźwięk w tle na końcu ścieżki.
 
 Procesor dźwięku po zmianie:
 
-![](images\4_5.png)
+![](images/4_5.png)
 
 > Opisz wrażenia.
 
@@ -107,4 +107,4 @@ Każdy parametr wydaje się mieć silny wpływ na brzmienie ścieżki.
 
 > Spróbuj dołożyć lub zmienić melodię/napisać własną za  pomocą układania „klocków” w sekcji piano roll.
 
-![](images\4_6.png)
+![](images/4_6.png)
